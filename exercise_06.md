@@ -8,5 +8,5 @@
           activate server
           server-->>browser: {"status": "success", "message": "Note saved"}
 
-          Note right of browser: The browser updates the UI to add the new note
+          Note right of browser: The browser updates the UI to add the new note without reloading
 ```

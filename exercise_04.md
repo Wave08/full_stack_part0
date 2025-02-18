@@ -12,5 +12,5 @@ sequenceDiagram
     server-->>browser: {"status": "success", "message": "Note saved!"}
     deactivate server
 
-    Note right of browser: The browser updates the User Interface to show the new note.
+    Note right of browser: The browser reloads to update the User Interface and to show the new note
 ```
